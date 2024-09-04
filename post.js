@@ -8,7 +8,7 @@ const sendRequest = () => {
 
   const data = {
     availableTaps: 0,
-    count: 4000,
+    count: 10500,
     timestamp: currentTimestamp,
   };
 
@@ -31,4 +31,4 @@ const sendRequest = () => {
 
 // Відправити запит через 350 секунд (350000 мілісекунд)
 
-setInterval(sendRequest, 1405 * 1000);
+setInterval(sendRequest, 3470 * 1000);
