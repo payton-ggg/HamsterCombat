@@ -59,5 +59,5 @@ const sendRequestNik = () => {
 };
 
 // Відправити запит через 350 секунд (350000 мілісекунд)
-setInterval(sendRequest, 3850 * 1000);
-setInterval(sendRequestNik, 3850 * 1000);
+setInterval(sendRequest, 3900 * 1000);
+setInterval(sendRequestNik, 3900 * 1000);
