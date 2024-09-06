@@ -8,7 +8,7 @@ const sendRequest = () => {
 
   const data = {
     availableTaps: 0,
-    count: 10500,
+    count: 11000,
     timestamp: currentTimestamp,
   };
 
@@ -29,6 +29,35 @@ const sendRequest = () => {
     });
 };
 
-// Відправити запит через 350 секунд (350000 мілісекунд)
+const sendRequestNik = () => {
+  const url = "https://api.hamsterkombatgame.io/clicker/tap";
 
-setInterval(sendRequest, 3470 * 1000);
+  // Отримуємо поточну тимчасову мітку Unix у секундах
+  const currentTimestamp = Math.floor(Date.now() / 1000);
+
+  const data = {
+    availableTaps: 0,
+    count: 11000,
+    timestamp: currentTimestamp,
+  };
+
+  const config = {
+    headers: {
+      Authorization:
+        "Bearer 17256053001268iRmLeOIrYTVVsgZoQ9Gi9lFAuZkZrF0byjGdUfwW08MzjFuduaAIDxokj3ivR5E619703088",
+    },
+  };
+
+  axios
+    .post(url, data, config)
+    .then((response) => {
+      console.log("Response:", response.data);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+};
+
+// Відправити запит через 350 секунд (350000 мілісекунд)
+setInterval(sendRequest, 3850 * 1000);
+setInterval(sendRequestNik, 3850 * 1000);
