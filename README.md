@@ -20,7 +20,7 @@ This background worker automates your earnings in **Hamster Combat**, allowing y
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/payton-ggg/ham
    cd <repository-directory>
    ```
 
@@ -29,16 +29,11 @@ This background worker automates your earnings in **Hamster Combat**, allowing y
    npm install
    ```
 
-3. Set your Telegram authorization key in the environment variables:
-   ```bash
-   export TELEGRAM_KEY=<your-key-here>
-   ```
-
-4. Deploy your app on Railway:
+3. Deploy your app on Railway:
    - Sign up or log in to [Railway](https://railway.app/).
    - Connect your repository and deploy your app on their platform.
 
-5. Start the background worker locally (optional):
+4. Start the background worker locally (optional):
    ```bash
    npm start
    ```
