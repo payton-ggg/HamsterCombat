@@ -1,5 +1,3 @@
----
-
 # 🐹 Hamster Combat Background Worker
 
 This background worker automates your earnings in **Hamster Combat**, allowing you to generate rewards automatically and regularly without manual intervention.
