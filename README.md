@@ -18,8 +18,8 @@ This background worker automates your earnings in **Hamster Combat**, allowing y
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/payton-ggg/ham
-   cd <repository-directory>
+   git clone https://github.com/payton-ggg/HamsterCombat
+   cd HamsterCombat
    ```
 
 2. Install the required dependencies:
